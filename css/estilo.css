@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(187, 64, 19);
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+}
+header{
+    background-color: black;
+}
+.letraBlanca{
+    color: white;
+    font-size: 2.5rem;
+    padding: 50px;
+}
+.encabezado{
+    font-size: 1.5rem;
+}
+.center{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tamanoTour{
+    width: 600px;
+}
+img{
+    width: 500px;
+    margin: 50px;
+}
+.pieIg{
+    width: 35px;
+    border-radius: 30px;
+}
+.pieYou{
+    width: 35px;
+}
+.pieTw{
+    width: 35px;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 50px;
+}
+.derecha{
+    text-align: right;
+    padding: 50px;
+}
+.izquierda{
+    text-align: justify;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    padding: 50px;
+    letter-spacing: 2.5px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+
+}
+.fotosInt{
+    width: 200px;
+    height: 250px;
+}
+.video{
+    width: 550px;
+    padding: 50px;
+}
+footer{
+    background-color: black;
+}
+.menu{
+    padding:5px;
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+}
+.menu li a:hover{
+    background-color: rgb(187, 64, 19);
+    color: black;
+    border-radius: 10%;
+
+}
