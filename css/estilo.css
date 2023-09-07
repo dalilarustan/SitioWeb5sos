@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 
 body{
     background-color: rgb(187, 64, 19);
     font-family: fantasy;
     letter-spacing: 1.5px;
+    width: 100%;
 }
 header{
     background-color: black;
@@ -26,10 +28,10 @@ header{
     margin-right: auto;
 }
 .tamanoTour{
-    width: 600px;
+    max-width: 600px; 
 }
 img{
-    width: 500px;
+    max-width: 500px;
     margin: 50px;
 }
 .pieIg{
@@ -66,11 +68,11 @@ h2{
 
 }
 .fotosInt{
-    width: 200px;
+    max-width: 200px;
     height: 250px;
 }
 .video{
-    width: 550px;
+    max-width: 550px;
     padding: 50px;
 }
 footer{
@@ -114,6 +116,15 @@ footer{
     header{
         display: flex;
         justify-content: space-evenly;
+    }
+    .imghome{
+        display: flex;
+        justify-content: center;
+        max-height: 420px;
+
+    }
+    .letraBlanca{
+        text-align: center;
     }
 
     .section1{
