@@ -76,26 +76,6 @@ h2{
 footer{
     background-color: black;
 }
-.menu{
-    padding:5px;
-    list-style: none;
-    margin: 0 auto;
-    text-align: center;
-}
-.menu li{
-    display: inline-block;
-}
-.menu li a{
-    padding: 20px;
-    color: white;
-    font-size: 1.2rem;
-}
-.menu li a:hover{
-    background-color: rgb(187, 64, 19);
-    color: black;
-    border-radius: 10%;
-
-}
 .section1{
     display: grid;
     column-gap: 10px;
@@ -131,6 +111,10 @@ footer{
     }
 }
 @media screen and (max-width:480px){
+    header{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
     .section1{
         column-gap: 10px;
@@ -140,4 +124,13 @@ footer{
             "textohome"
             "imghome";
     }
+}
+.nav-link{
+    color: white;
+}
+.active{
+    font-style: italic;
+}
+.navbar{
+    margin: 0 auto;
 }
