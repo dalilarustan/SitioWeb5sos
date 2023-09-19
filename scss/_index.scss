@@ -1,0 +1,18 @@
+main{
+    .section1{
+        display: grid;
+        column-gap: 10px;
+        grid-template-rows: 600px;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "textohome textohome imghome";
+        .textohome{
+            grid-area: textohome;
+            display: flex;
+            align-items: center;
+        }
+        .imghome{
+            grid-area: imghome;
+        }
+    }
+}

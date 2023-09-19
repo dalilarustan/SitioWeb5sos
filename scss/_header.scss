@@ -1,0 +1,25 @@
+header{
+    background-color: black;
+    .letraBlanca{
+        color: white;
+        font-size: 2.5rem;
+        padding: 50px;
+    }
+    nav{
+        margin: 0 auto;
+        div{
+            div{
+                ul{
+                    li{
+                        .nav-link{
+                        color: white;
+                        }
+                        .active{
+                        font-style: italic;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
