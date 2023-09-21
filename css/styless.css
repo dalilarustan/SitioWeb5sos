@@ -14,6 +14,11 @@ body img {
   max-width: 500px;
   margin: 50px;
 }
+body p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 50px;
+}
 
 header {
   background-color: black;
@@ -47,6 +52,26 @@ main .section1 .textohome {
 }
 main .section1 .imghome {
   grid-area: imghome;
+}
+
+footer {
+  background-color: black;
+}
+footer .derecha {
+  text-align: right;
+  padding: 50px;
+}
+footer .derecha img {
+  width: 35px;
+}
+
+main .center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .center .tamanoTour {
+  width: 600px;
 }
 
 /*# sourceMappingURL=styless.css.map */
