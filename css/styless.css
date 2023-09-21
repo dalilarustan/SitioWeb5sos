@@ -74,4 +74,15 @@ main .center .tamanoTour {
   width: 600px;
 }
 
+main .videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .videos .video {
+  display: flex;
+  max-width: 550px;
+  padding: 50px;
+}
+
 /*# sourceMappingURL=styless.css.map */
