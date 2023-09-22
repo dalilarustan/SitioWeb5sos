@@ -17,4 +17,48 @@ body{
         line-height: 1.6;
         padding: 50px;
     }
+    h2{
+        margin:50px;
+        letter-spacing: 2.5px;
+        color: rgb(0, 0, 0);
+        font-style: italic;
+    }
+}
+@media screen and (max-width:480px){
+    header{
+        .letraBlanca{
+            text-align: center;
+        }
+    }
+    main{
+        .section1{
+            column-gap: 10px;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+                "textohome"
+                "imghome";
+            .imghome{
+                display: flex;
+                justify-content: center;
+                max-height: 420px;
+            }
+        }
+    }
+    
+}
+@media screen and (max-width:480px){
+    main{
+        .videos{
+            display: flex;
+            flex-direction: column;
+            .video{
+                padding: 5px;
+                margin: 0;
+                max-width: 320px;
+                justify-content: center;
+            }
+        }
+    }
+
 }

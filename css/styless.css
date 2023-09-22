@@ -19,7 +19,41 @@ body p {
   line-height: 1.6;
   padding: 50px;
 }
+body h2 {
+  margin: 50px;
+  letter-spacing: 2.5px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
 
+@media screen and (max-width: 480px) {
+  header .letraBlanca {
+    text-align: center;
+  }
+  main .section1 {
+    column-gap: 10px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "textohome" "imghome";
+  }
+  main .section1 .imghome {
+    display: flex;
+    justify-content: center;
+    max-height: 420px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .videos {
+    display: flex;
+    flex-direction: column;
+  }
+  main .videos .video {
+    padding: 5px;
+    margin: 0;
+    max-width: 320px;
+    justify-content: center;
+  }
+}
 header {
   background-color: black;
 }
@@ -82,7 +116,12 @@ main .videos {
 main .videos .video {
   display: flex;
   max-width: 550px;
-  padding: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+main section div div .col {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styless.css.map */
