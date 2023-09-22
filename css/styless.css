@@ -10,10 +10,6 @@ body {
   letter-spacing: 1.5px;
   width: 100%;
 }
-body img {
-  max-width: 500px;
-  margin: 50px;
-}
 body p {
   font-size: 1.2rem;
   line-height: 1.6;
@@ -30,16 +26,10 @@ body h2 {
   header .letraBlanca {
     text-align: center;
   }
-  main .section1 {
-    column-gap: 10px;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: "textohome" "imghome";
-  }
-  main .section1 .imghome {
+  main .section1 div .row .col .imghome {
     display: flex;
     justify-content: center;
-    max-height: 420px;
+    max-width: 200px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -72,20 +62,9 @@ header nav div div ul li .active {
   font-style: italic;
 }
 
-main .section1 {
-  display: grid;
-  column-gap: 10px;
-  grid-template-rows: 600px;
-  grid-template-columns: 2fr 1fr;
-  grid-template-areas: "textohome textohome imghome";
-}
-main .section1 .textohome {
-  grid-area: textohome;
-  display: flex;
-  align-items: center;
-}
-main .section1 .imghome {
-  grid-area: imghome;
+main .section1 div div div img {
+  width: 70%;
+  margin: 50px;
 }
 
 footer {
@@ -97,6 +76,7 @@ footer .derecha {
 }
 footer .derecha img {
   width: 35px;
+  margin: 30px;
 }
 
 main .center {
@@ -122,6 +102,11 @@ main .videos .video {
 
 main section div div .col {
   margin: 0 auto;
+}
+
+main .galeria img {
+  max-width: 500px;
+  margin: 50px;
 }
 
 /*# sourceMappingURL=styless.css.map */

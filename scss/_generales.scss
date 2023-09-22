@@ -8,10 +8,6 @@ body{
     font-family: fantasy;
     letter-spacing: 1.5px;
     width: 100%;
-    img{
-        max-width: 500px;
-        margin: 50px;
-    }
     p{
         font-size: 1.2rem;
         line-height: 1.6;
@@ -32,21 +28,21 @@ body{
     }
     main{
         .section1{
-            column-gap: 10px;
-            grid-template-rows: 1fr 1fr;
-            grid-template-columns: 1fr;
-            grid-template-areas: 
-                "textohome"
-                "imghome";
-            .imghome{
-                display: flex;
-                justify-content: center;
-                max-height: 420px;
+            div{
+                .row{
+                    .col{
+                        .imghome{
+                            display: flex;
+                            justify-content: center;
+                            max-width: 200px;
+                        }
+                    }
+                }
             }
         }
     }
-    
 }
+
 @media screen and (max-width:480px){
     main{
         .videos{
