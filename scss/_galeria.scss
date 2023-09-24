@@ -3,6 +3,9 @@ main{
         img{
             max-width: 100%;
             margin: 50px;
+            &:hover{
+                transform: $animacionImg
+            }
         }
         a{
             text-decoration: none;

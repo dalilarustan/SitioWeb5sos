@@ -66,6 +66,9 @@ main .section1 div div div img {
   width: 70%;
   margin: 50px;
 }
+main .section1 div div div img:hover {
+  transform: scale(1.1, 1.1);
+}
 
 footer {
   background-color: black;
@@ -79,24 +82,24 @@ footer .derecha img {
   margin: 30px;
 }
 
-main .center {
+main section .center {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
-main .center .tamanoTour {
+main section .center .tamanoTour {
   width: 40%;
 }
-main .center a {
+main section .center a {
   text-decoration: none;
 }
-main .center a:hover {
+main section .center a:hover {
   color: rgb(255, 232, 100);
 }
 
 @media screen and (max-width: 480px) {
-  main .center .tamanoTour {
-    width: 80%;
+  main section .center .tamanoTour {
+    width: 100%;
   }
 }
 main .videos {
@@ -118,6 +121,9 @@ main section div div .col {
 main .galeria img {
   max-width: 100%;
   margin: 50px;
+}
+main .galeria img:hover {
+  transform: scale(1.1, 1.1);
 }
 main .galeria a {
   text-decoration: none;

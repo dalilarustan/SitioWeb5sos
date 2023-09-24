@@ -1,24 +1,28 @@
 main{
-    .center{
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        .tamanoTour{
-            width:40%;
-        }
-        a{
-            text-decoration: none;
-            &:hover{
-                color:rgb(255, 232, 100);
+    section{
+        .center{
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            .tamanoTour{
+                width:40%;
+            }
+            a{
+                text-decoration: none;
+                &:hover{
+                    color:rgb(255, 232, 100);
+                }
             }
         }
     }
 }
 @media screen and (max-width:480px){
     main{
-        .center{
-            .tamanoTour{
-                width:80%;
+        section{
+            .center{
+                .tamanoTour{
+                    width:100%;
+                }
             }
         }
     }

@@ -6,6 +6,9 @@ main{
                     img{
                         width:70%;
                         margin: 50px;
+                        &:hover{
+                            transform: $animacionImg
+                        }
                     }
                 }
             }
