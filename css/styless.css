@@ -44,6 +44,16 @@ body h2 {
     justify-content: center;
   }
 }
+@media screen and (max-width: 480px) {
+  footer .derecha {
+    text-align: center;
+    padding: 0;
+  }
+  footer .derecha img {
+    width: 35px;
+    margin: 0;
+  }
+}
 header {
   background-color: black;
 }
@@ -75,7 +85,7 @@ footer {
 }
 footer .derecha {
   text-align: right;
-  padding: 50px;
+  padding: 25px;
 }
 footer .derecha img {
   width: 35px;
@@ -136,6 +146,38 @@ main .galeria a:hover {
   main .galeria img {
     max-width: 80%;
     margin: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header .letraBlanca {
+    text-align: center;
+  }
+  main .section1 div .row .col .imghome {
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  main .videos {
+    display: flex;
+    flex-direction: column;
+  }
+  main .videos .video {
+    padding: 5px;
+    margin: 0;
+    max-width: 320px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  footer .derecha {
+    text-align: center;
+    padding: 0;
+  }
+  footer .derecha img {
+    width: 35px;
+    margin: 20px;
   }
 }
 
