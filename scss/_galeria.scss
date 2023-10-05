@@ -10,7 +10,7 @@ main{
         a{
             text-decoration: none;
             &:hover{
-                color:rgb(255, 232, 100);
+                @include links
             }
         }
     }
