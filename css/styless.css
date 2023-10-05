@@ -97,9 +97,12 @@ main section div div .col {
   margin: 0 auto;
 }
 
+main .galeria {
+  text-align: center;
+}
 main .galeria img {
   max-width: 100%;
-  margin: 50px;
+  margin: 60px;
 }
 main .galeria img:hover {
   transform: scale(1.1, 1.1);

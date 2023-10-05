@@ -1,8 +1,9 @@
 main{
     .galeria{
+        text-align: center;
         img{
             max-width: 100%;
-            margin: 50px;
+            margin: 60px;
             &:hover{
                 transform: $animacionImg
             }
